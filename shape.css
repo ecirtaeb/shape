@@ -1,0 +1,19 @@
+h1 {
+
+	color : brown;
+	text-align : center;
+}
+body {
+	
+	margin :  15auto;
+}
+svg {
+
+	border : 5px solid brown;
+	display : block;
+	width : 1000px;
+	height : 500px;
+	margin : 0 auto;
+	padding : 10px;
+	background-color : 
+}
