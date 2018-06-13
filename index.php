@@ -1,6 +1,5 @@
 <?php
 include 'public/dessiner.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -10,12 +9,18 @@ include 'public/dessiner.php';
 	<link rel="stylesheet" type="text/css" href="shape.css">
 </head>
 <body>
-	<h1>Ouah c'est joulie ! </h1>
+	<h1>Ouah c'est joulie ! (bof) </h1>
 
 	<svg>
+
+		<?= $toile->draw() ?>
+
+	<!--
+
   		<?= $carre1->draw() ?>
   		<?= $rect1->draw() ?>
   		<?= $rect2->draw() ?>
+  		<?= $rect3->draw() ?>
   		<?= $rond1->draw() ?>
   		<?= $rond2->draw() ?>
 		<?= $rond3->draw() ?>
@@ -25,6 +30,8 @@ include 'public/dessiner.php';
   		<?= $triangle1->draw() ?>
 		<?= $triangle2->draw() ?>
 		<?= $triangle3->draw() ?>
+	-->
+
 	</svg> 
 
 </body>
